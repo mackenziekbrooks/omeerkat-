@@ -77,7 +77,7 @@
                     <?php endif; ?>
                 </ul>
 
-                <a href="<?php echo WEB_ROOT; ?>"><img src="<?php echo img('sub.png'); ?>" alt="Scribe: an Omeka theme" title="Scribe: an Omeka theme" width="960" height="80" border="0"></a>
+                <a href="<?php echo WEB_ROOT; ?>"><h1>Transcribe W&L</h1></a>
             </div>
 
         </header><!-- end header -->

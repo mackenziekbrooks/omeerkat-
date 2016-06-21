@@ -362,7 +362,7 @@ jQuery(document).ready(function() {
         <h3><?php echo $this->doc->getPageName(); ?></h3>
 
         <div>
-            <div><strong><?php echo metadata($this->file, array('Dublin Core', 'Title')); ?></strong></div>
+           <div><strong><?php echo metadata($this->file, array('Dublin Core', 'Title')); ?></strong></div>
             <div>image <?php echo html_escape($this->paginationUrls['current_page_number']); ?> of <?php echo html_escape($this->paginationUrls['number_of_pages']); ?></div>
             <div>
                 <?php //echo metadata($this->$file, array('Dublin Core', 'Source')); ?>

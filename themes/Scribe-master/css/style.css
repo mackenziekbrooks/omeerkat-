@@ -26,13 +26,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .masthead {
     margin-bottom: 0px;
-    height: 100px;
+    height: 130px;
     padding: 10;
-    background-image: url(../images/background.gif);
+    background-image: url(../images/background.gif)#;
 }
 
 .masthead h1 {
-    color: #900;
+    color: #354880;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 5em;
+    margin-top:30px;
+    margin-left:30px;
 }
 
 .masthead .nav {
@@ -42,16 +47,16 @@ h1, h2, h3, h4, h5, h6 {
 .masthead .nav li {
     margin-left: 10px;
     font-weight: normal;
-    font-family: "Oxygen", sans-serif;
+    font-family: "Helvetica", sans-serif;
 
 }
 
 #sublinks ul {  margin: 0; float: right; }
 
-#sublinks a { color: #6A231F; font-size: .9em; font-weight: bold; }
+#sublinks a { color: #354880; font-size: .9em; font-weight: bold; }
 #content { background-color: #fff; padding: 10px 20px; margin-top: 20px; }
-h2 { color: #6A231F; }
-h2 { color: #6A231F; }
+h2 { color: #354880; }
+h2 { color: #354880; }
 
 /* Slideshow */
 
@@ -195,7 +200,7 @@ h2 { color: #6A231F; }
 /* Footer */
 
 .footer {
-    background: #F8F8F8;
+    background: #354880;
     padding: 0px 0;
 }
 
@@ -204,7 +209,7 @@ h2 { color: #6A231F; }
 }
 
 .footer a {
-    color: #888;
+    color: #FFF;
 }
 
 .footer a:hover {
@@ -219,6 +224,7 @@ h2 { color: #6A231F; }
 .footer ul.footer-nav li {
     line-height: 2;
 }
+
 
 /* Carousel items - change these to suit your needs */
 
@@ -457,16 +463,16 @@ td img {
     margin: 0px;
 }
 
-#header { height: 100px; background-color: #FFF; margin: 0; padding: 0; background-image: url(../images/background.gif); }
+#header { height: 100px; background-color: #FFF; margin: 0; padding: 0; background-image: url("http://archivesspace.wlu.edu/assets/images/wlu/AS_banner1.jpg"); }
 
-a {color: #6A231F;}
-a:hover { color: #6A231F; text-decoration: underline; }
+a {color: #354880;}
+a:hover { color: #264c82; text-decoration: underline; }
 
 body { background-image: url("http://archivesspace.wlu.edu/assets/themes/default/bg_body-c33f15fcf9603f5859725ca64c227a48.png")}
 
 /*header { margin-top: 10px; }*/
 
-.footer { background-color: #d9edfd; margin-left: 0; *zoom: 1;
+.footer { background-color: #354880; margin-left: 0; *zoom: 1;
 }
 /*********************************************************************************/
 
